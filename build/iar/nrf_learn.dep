@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1782133799</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\fifo\app_fifo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\prs\nrfx_prs.c</file>
+            <file>$PROJ_DIR$\..\..\lld\tm_stdio\tm_stdio.h</file>
+            <file>$PROJ_DIR$\..\..\application\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\boards\boards.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\system_nrf52840.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\legacy\nrf_drv_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\nrfx_uarte.c</file>
+            <file>$PROJ_DIR$\..\..\lld\uart\uart.h</file>
+            <file>$PROJ_DIR$\..\..\lld\tm_stdio\tm_stdio.c</file>
+            <file>$PROJ_DIR$\..\..\lld\uart\uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error_handler_iar.c</file>
+            <file>$PROJ_DIR$\..\..\lld\uart\app_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\nrf_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\atomic\nrf_atomic.c</file>
+            <file>$PROJ_DIR$\..\..\lld\uart\app_uart_fifo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\iar_startup_nrf52840.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_atomic.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\nrfx_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error_weak.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_util_platform.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\balloc\nrf_balloc.c</file>
+            <file>$PROJ_DIR$\..\..\board\config\sdk_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\external\fprintf\nrf_fprintf.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_error_handler_iar.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\include\nrfx_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\nrfx_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\include\nrfx_uarte.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\external\fprintf\nrf_fprintf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_ringbuf.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\legacy\nrf_drv_uart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_log_frontend.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_fprintf_format.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\nrfx_errors.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\boards.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf52840_peripherals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\hal\nrf_uart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_fifo.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_error.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_strerror.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_log_frontend.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_uarte.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_util_platform.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_drv_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_atomic.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_prs.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\delay\nrf_delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\nrfx_log.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_util_platform.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_uart_fifo.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_nrf52840.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_assert.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_learn.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\hal\nrf_uarte.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\legacy\apply_old_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_error_handler_iar.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tm_stdio.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\ringbuf\nrf_ringbuf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\strerror\nrf_strerror.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\experimental_section_vars\nrf_section.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\hal\nrf_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf52840_bitfields.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\sdk_os.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_error.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\bsp\bsp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\sdk_resources.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\atomic\nrf_atomic.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\toolchain\cmsis\include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_irqs_nrf52840.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\toolchain\cmsis\include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\src\nrf_log_ctrl_internal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_irqs.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_log_str_formatter.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_util.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\nrf_log.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_atomic.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_uart_fifo.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\toolchain\cmsis\include\core_cmSimd.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_error_weak.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\nrf_log_instance.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_uarte.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_memobj.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\boards.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_assert.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_fprintf_format.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_error_weak.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\system_nrf52840.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_log_str_formatter.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_fprintf.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf51_to_nrf52840.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\sdk_macros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_fifo.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf52_to_nrf52840.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\nrf_learn.hex</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error_weak.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\nordic_common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_uart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\toolchain\cmsis\include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf_peripherals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_drv_uart.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\boards\boards.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\fifo\app_fifo.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\atomic\nrf_atomic_internal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\boards\pca10056.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_nrf52840.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_startup_nrf52840.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\nrfx_glue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\nrfx.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_atomic.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_balloc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\sdk_errors.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_ringbuf.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\compiler_abstraction.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_strerror.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_memobj.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\prs\nrfx_prs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\nrf52840.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_coredep.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\src\nrf_log_frontend.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\strerror\nrf_strerror.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_balloc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\external\fprintf\nrf_fprintf_format.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\nrf_log_ctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\drivers_nrf\nrf_soc_nosd\nrf_error.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\src\nrf_log_internal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrfx_prs.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\nrf_log_backend_interface.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_atomic.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\memobj\nrf_memobj.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_atomic.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\sdk_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_atomic_internal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nrf_fprintf.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\external\fprintf\nrf_fprintf_format.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\balloc\nrf_balloc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\ringbuf\nrf_ringbuf.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\src\nrf_log_str_formatter.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\nrf_assert.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\nrf_learn.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\nrf_log_types.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tm_stdio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\app_util_platform.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\memobj\nrf_memobj.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\nrfx_config.h</file>
+            <file>$PROJ_DIR$\..\..\board\board.h</file>
+            <file>$PROJ_DIR$\..\..\board\scu_neo_board.h</file>
+            <file>$PROJ_DIR$\..\..\board\scu_neo_board.c</file>
+            <file>$PROJ_DIR$\Debug\List\nrf_learn.map</file>
+            <file>$PROJ_DIR$\uart_iar_nRF5x.icf</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\scu_neo_board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\scu_neo_board.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 162 172</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\fifo\app_fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 117 30 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 132 59 102 151 144 74 108 117 111 85 86 126 118 33 73 92 23 129 106 45 95 133 50 154 137 105 113 81 49 67 30 153 79 161 152</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\prs\nrfx_prs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 168 23 27 59 128 86 45 95 133 154 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 114 40 123 65 83 80 161 85 111 56 36 61 129 144 110 138 148 77 37 136 55 87 153 151 50 74 106 71 145 94 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105 144 37 59 128 86 79 67 111 114 33 61 153 151 27 23 126 137 132 113 161 36 74 94 164 136 55 168 123 154 118 45 95 133 73 108 102 81 92 49 40 65 85 80 124 87 145 83 56 138 148 129 77 110 71 106 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126 59 128 86 45 95 133 61 33 13 56 132 118 137 113 81 67 49 79 92 102 73 105 108 161 36 129 144 111 110 54 124 168 23 27 154 114 40 123 65 83 80 85 138 148 77 37 2 41 64 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 86 114 36 8 33 126 132 73 79 118 61 128 161 108 102 37 83 154 13 54 2 41 64 45 95 133 56 137 105 113 67 111 27 23 80 124 81 92 49 129 110 144 168 123 40 65 85 138 148 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\boards\boards.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 128 154 45 59 120 124 95 73 168 86 83 118 132 126 111 123 133 108 102 81 49 129 72 27 37 23 114 33 137 105 113 92 80 161 110 116 79 40 65 85 56 138 148 77 36 61 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\system_nrf52840.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 128 86 45 95 133 126 118 137 113 81 67 49 79 92 102 73 105 108 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79 86 73 118 128 108 102 59 67 126 45 95 133 137 105 132 113 81 92 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\integration\nrfx\legacy\nrf_drv_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 124 168 23 27 59 128 86 45 95 133 154 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 114 40 123 65 83 80 161 85 111 56 36 61 129 144 110 138 148 77 37 28 64 26 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124 26 67 27 33 113 49 23 126 86 105 81 129 37 59 114 128 137 132 83 118 28 168 123 154 45 95 133 73 108 102 92 111 80 161 110 41 32 79 40 65 85 56 138 148 77 36 61 144 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\nrfx_uarte.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 168 23 27 59 128 86 45 95 133 154 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 114 40 123 65 83 80 161 85 111 56 36 61 129 144 110 138 148 77 37 28 64 136 72 55 87 153 151 50 74 106 71 145 94 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154 85 27 137 33 153 23 126 128 86 132 113 59 40 65 118 124 136 37 114 105 79 67 80 111 164 28 72 55 168 123 45 95 133 73 108 102 81 92 49 161 36 61 144 64 87 145 151 74 94 83 56 138 148 129 77 110 71 106 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\lld\tm_stdio\tm_stdio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 59 128 86 45 95 133 61 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45 59 86 128 61 33 2 95 133</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\lld\uart\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 59 128 86 45 95 133 126 56 132 118 137 113 81 67 49 79 92 102 73 105 108 161 36 61 33 129 144 111 110 170 72 124 168 23 27 154 114 40 123 65 83 80 85 138 148 77 37 41 64 8 153 151 50 74 106 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 151 56 133 105 114 41 59 113 170 64 144 128 45 95 36 137 132 79 86 37 83 154 74 8 153 61 13 2 126 161 73 108 102 67 111 33 72 27 23 80 124 85 81 92 49 129 110 168 123 40 65 138 148 77 106 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 137 113 59 128 86 45 95 133 81 67 49 79 92 102 73 105 108 132 61 33 36 126 129 144 111 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126 73 129 79 128 67 86 36 108 102 59 45 110 61 111 137 105 132 113 81 92 95 133 49 33 118 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error_handler_iar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 36 61 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73 111 86 128 118 59 85 126 33 36 151 74 144 132 108 102 92 23 129 106 45 95 133 50 154 137 105 113 81 49 67 61 153 79 161 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\nrf_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161 59 128 86 45 95 133 118 137 113 81 67 49 79 92 102 73 105 108 132 36 61 33 126 129 144 111 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108 118 128 45 95 102 59 111 133 73 79 129 86 36 137 105 132 113 81 92 49 67 126 110 161 61 33 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\atomic\nrf_atomic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 118 111 73 59 85 126 33 119 151 74 144 132 128 108 102 67 153 23 129 106 45 95 133 50 154 137 105 113 79 161 78 81 92 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\lld\uart\app_uart_fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 13 56 36 61 110 117 30 152 32 124 168 27 114 40 123 65 83 80 138 148 77 37 28 64 26 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124 86 151 132 32 74 144 67 126 59 111 13 85 128 108 81 49 129 168 154 80 117 161 23 106 45 95 133 33 50 118 73 113 92 110 152 28 123 83 41 153 137 105 102 79 56 36 61 30 26 27 37 114 40 65 138 148 77 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\mdk\iar_startup_nrf52840.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\soc\nrfx_atomic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 124 168 23 27 59 128 86 45 95 133 154 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 114 40 123 65 83 80 161 85 111 56 36 61 129 144 110 138 77 37 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 114 86 128 132 92 110 59 37 137 155 124 27 23 126 33 105 113 111 161 168 123 154 118 45 95 133 73 108 102 81 49 67 83 129 148 79 40 65 85 56 138 77 36 61 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\modules\nrfx\drivers\src\nrfx_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 168 23 27 59 128 86 45 95 133 154 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 114 40 123 65 83 80 161 85 111 56 36 61 129 144 110 138 148 77 37 26 41 136 72 55 87 153 151 50 74 106 71 145 94 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95 123 73 161 36 111 85 128 45 81 153 118 86 102 59 136 168 154 133 108 92 67 49 61 144 41 164 26 72 55 27 37 23 126 114 33 137 105 132 113 79 40 65 80 124 87 145 151 74 94 83 56 138 148 129 77 110 71 106 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_error_weak.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 59 128 86 45 95 133 61 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 129 144 111 110 87 153 151 50 23 74 85 154 106 161 71 145 94 164 143 82 147 56 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 128 129 132 113 33 94 126 86 59 144 70 137 74 164 143 110 105 79 67 153 151 111 87 56 61 45 95 133 73 108 102 81 92 49 145 85 23 82 71 36 106 50 154 161 147</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\util\app_util_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56 59 128 86 45 95 133 132 118 137 113 81 67 49 79 92 102 73 105 108 161 36 61 33 126 129 144 111 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132 81 161 133 137 59 128 45 95 105 113 92 118 129 86 36 73 108 102 79 49 67 126 110 56 61 111 33 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\balloc\nrf_balloc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 71 158 56 36 61 110 94 164 87 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126 59 81 128 23 106 73 56 132 133 33 118 102 61 71 85 129 45 95 50 108 92 67 49 86 111 36 164 158 87 151 74 144 154 137 105 113 79 94 153 161 110 145</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\external\fprintf\nrf_fprintf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 142 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 128 108 92 142 151 144 132 102 38 59 111 85 86 126 118 33 73 161 23 129 106 45 95 133 50 154 137 105 113 81 49 67 29 153 79</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\src\nrf_log_frontend.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 132 133 105 126 106 59 154 113 92 23 129 128 45 95 50 111 86 137 151 74 85 144 118 73 108 102 81 49 67 153 79 161</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\strerror\nrf_strerror.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 151 144 132 102 74 128 108 70 59 111 85 86 126 118 33 73 81 49 23 129 106 45 95 133 50 154 137 105 113 92 153 79 161</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\memobj\nrf_memobj.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167 59 128 86 45 95 133 30 33 152 129 144 158 23 56 132 118 137 113 81 67 49 79 92 102 73 105 108 161 36 61 126 111 110 85 154 94 71 164 78 153 151 50 74 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106 128 23 85 92 59 144 132 108 86 33 67 49 118 111 126 161 129 71 73 102 81 78 30 158 45 95 133 152 56 94 36 137 105 113 79 61 154 164 50 167 110 153 151 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\external\fprintf\nrf_fprintf_format.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 29 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 49 74 29 151 144 132 128 108 92 86 38 59 111 85 126 118 33 73 102 81 161 142 23 129 106 45 95 133 50 154 137 105 113 79 153</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\ringbuf\nrf_ringbuf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 59 128 86 45 95 133 78 153 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161 56 36 61 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151 118 33 67 78 153 74 59 154 105 79 161 86 111 85 128 50 137 132 113 129 56 45 95 133 126 23 106 144 73 108 102 81 92 49 110 69 36 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\nRF5SDK\components\libraries\log\src\nrf_log_str_formatter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 59 128 86 45 95 133 126 151 33 50 23 111 132 74 129 144 85 154 118 137 113 81 67 49 79 92 102 73 105 108 106 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 132 133 105 126 106 59 154 113 92 23 129 128 45 95 50 111 86 137 151 74 85 144 118 73 108 102 81 49 67 153 79 161</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\nrf_learn.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 173 75 66 93 42 57 166 122 131 60 125 127 115 104 100 34 103 97 31 44 52 146 62 96 178 121 165 90 175 176 174</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\scu_neo_board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170 72 124 168 23 27 59 128 86 45 95 133 154 33 126 118 137 113 81 67 49 79 92 102 73 105 108 132 114 40 123 65 83 80 161 85 111 56 36 61 129 144 110 138 148 77 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 37 137 161 129 118 114 128 86 132 148 61 72 27 23 126 33 105 113 79 154 111 124 168 123 45 95 133 73 108 102 67 40 65 85 56 138 77 36 144 170 81 92 49 83 80 110</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
